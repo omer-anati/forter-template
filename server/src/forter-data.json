@@ -1,9 +1,9 @@
 {
   "widgets": [
     {
-      "name": "FORTER_NETWORK_OVERVIEW",
+      "name": "Forter Network Overview",
       "icon": "FORTER",
-      "remark": {
+      "tag": {
         "label": "First seen",
         "value": "16",
         "unit": "YEARS",
@@ -11,13 +11,15 @@
       },
       "content": [
         {
-          "type": "TRUST_LEVEL",
+          "type": "METER",
+          "title": "Trust Level",
           "data": {
             "value": 3
           }
         },
         {
-          "type": "REVENUE_RETENTION",
+          "type": "METER",
+          "title": "Revenue Retention",
           "data": {
             "value": 2
           }
@@ -25,9 +27,9 @@
       ]
     },
     {
-      "name": "CUSTOMER_OVERVIEW",
+      "name": "Customer Overview",
       "icon": "MY_SHOP",
-      "remark": {
+      "tag": {
         "label": "Customer since",
         "value": "14",
         "unit": "YEARS"
