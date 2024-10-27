@@ -1,0 +1,82 @@
+{
+  "widgets": [
+    {
+      "name": "FORTER_NETWORK_OVERVIEW",
+      "icon": "FORTER",
+      "remark": {
+        "label": "First seen",
+        "value": "16",
+        "unit": "YEARS",
+        "icon": "FORTER"
+      },
+      "content": [
+        {
+          "type": "TRUST_LEVEL",
+          "data": {
+            "value": 3
+          }
+        },
+        {
+          "type": "REVENUE_RETENTION",
+          "data": {
+            "value": 2
+          }
+        }
+      ]
+    },
+    {
+      "name": "CUSTOMER_OVERVIEW",
+      "icon": "MY_SHOP",
+      "remark": {
+        "label": "Customer since",
+        "value": "14",
+        "unit": "YEARS"
+      },
+      "content": [
+        {
+          "type": "KPI_BAR",
+          "data": [
+            {
+              "label": "LTV",
+              "value": 260000,
+              "unit": "USD"
+            },
+            {
+              "label": "Total Purchases",
+              "value": "35200",
+              "count": 650,
+              "unit": "USD"
+            },
+            {
+              "label": "Revenue Retention",
+              "value": "34000",
+              "count": 500,
+              "unit": "USD"
+            }
+          ]
+        },
+        {
+          "type": "TAGS",
+          "title": "Customer activity-based tags",
+          "data": [
+            {
+              "label": "Policy Violation",
+              "value": "Abuser",
+              "level": 3
+            },
+            {
+              "label": "Customer Status",
+              "value": "Dormant",
+              "level": 2
+            },
+            {
+              "label": "Customer Type",
+              "value": "Reseller",
+              "level": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
