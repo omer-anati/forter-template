@@ -11,6 +11,11 @@
       },
       "content": [
         {
+          "type": "IDENTITY",
+          "icon": "PEOPLE",
+          "fullName": "Sarah Connor"
+        },
+        {
           "type": "METER",
           "title": "Trust Level",
           "data": {
